@@ -1,0 +1,6 @@
+[submodule "hooks-tutorial"]
+	path = hooks-tutorial
+	url = https://github.com/cocodori/react-book.git
+[submodule "hello-react"]
+	path = hello-react
+	url = https://github.com/cocodori/react-book.git
