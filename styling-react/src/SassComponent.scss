@@ -1,6 +1,14 @@
-@import "./style/utils";
+@import "utils.scss";
+
 .SassComponent {
   display: flex;
+  background: $oc-gray-2;
+
+  //작동 안 됨
+  @include media("<ㅋ768px") {
+    backgorund: $oc-gray-9;
+  }
+
   .box {
     background: red;
     cursor: pointer;
